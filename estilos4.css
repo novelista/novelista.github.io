@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media only screen and (max-width: 930px) {
+#home-sub h3{background: url(../img/barralineal2.png) 100% 100% no-repeat;color: #111DEF;font-family: CoTextBdRegular;font-size: 24px;text-transform: uppercase;width: 100%;}
+#home-sub h4{background: url(../img/barralineal2.png) 100% 100% no-repeat;color: #111DEF;font-family: CoTextBdRegular;font-size: 24px;text-transform: uppercase;width: 100%;}
+#home-subp h3{background: url(../img/barralineal2.png) 100% 100% no-repeat;color: #111DEF;font-family: CoTextBdRegular;font-size: 24px;text-transform: uppercase;width: 100%;}
+#home-subp h4{background: url(../img/barralineal2.png) 100% 100% no-repeat;color: #111DEF;font-family: CoTextBdRegular;font-size: 24px;text-transform: uppercase;width: 100%;}
+}
+@media only screen and (max-width: 630px) {
+#footer { margin: 0 auto; width: 100%; height: auto;  padding:20px 0 0 0; order:1; display:-webkit-flex; display:-ms-flexbox; display:flex;  flex-wrap:wrap; justify-content:center;}
+#footerNav { order:2;}
+#footerAux { order:1;}
+#slogan { margin:0 auto;  width:100%; display:-webkit-flex; display:-ms-flexbox; display:flex;  flex-wrap:wrap; justify-content:center; order:3;}
+#slogan p{text-align:center;}
+#footerend {background:#000000 url(../img/bg-mainyx.png); width:100%; height:50px; border: 1px solid #000000 noshade;}
+#home-sub .dotCOItem{background:url(../img/bg-gray-diagonal-line.gif) 0 8px repeat-x;font-size:14px;width:130px;height:auto;margin:25px 4px 0 4px;float:left;}
+#home-sub .dotCOItem.last{margin:25px 4px 0 4px;}
+#home-sub .dotCOItem a {background:none;font-family:Calibri, Arial, Helvetica, sans-serif;font-size:13px;font-weight:bold;text-transform:none;width:auto;clear:both;}
+#home-subp .dotCOItem{background:url(../img/bg-gray-diagonal-line.gif) 0 8px repeat-x;font-size:14px;width:130px;height:auto;margin:25px 8px 0 0;float:left;}
+#home-subp .dotCOItem.last{margin:25px 4px 0 4px;}
+#home-subp .dotCOItem a {background:none;font-family:Calibri, Arial, Helvetica, sans-serif;font-size:13px;font-weight:bold;text-transform:none;width:auto;clear:both;}
+}
+@media only screen and (max-width: 600px) {
+#letra { margin:0 auto; width:100%; border: solid 1px #000000 noshade; }	
+}
+
+@media only screen and (max-width: 500px) {
+                #footerNav #block-block-3 p{
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #d6d7d9;
+}	
+}
+
+@media only screen and (max-width: 450px) {
+
+#homeMainMoreInfo h2{font-family:'CoTextLtRegular';font-size:12px; margin: 8px;}
+
+#homeMainMoreInfo h2 span{background:url(../img/btn-home-expander.gif) 0 0 no-repeat;width:127px;height:23px;position:absolute;margin:1px 0 0 5px;}
+
+#footerNav #block-block-3 p{font-size: 11px;font-weight: bold;text-transform: uppercase;color: #d6d7d9;
+}	
+
+#footerNav #block-block-3 ul{background:url(../img/bg-footer-links.gif) 0 0;width:100%;height:auto;padding:5px 0 0 0;float:right;margin-bottom:14px;}
+}
+
+@media only screen and (max-width: 410px) {
+	
+#slogan { margin:5px 0 0; padding-right: 20px; font-size: 12px; color: #d6d7d9; float: right; width:100%; order:3; display:-webkit-flex;display:-ms-flexbox; display:flex;  justify-content:center; justify-content:space-between;}
+
+}

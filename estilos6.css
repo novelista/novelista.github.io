@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+#containerES {width:100%;max-width:960px;height:auto;margin: 0 auto;border:1px solid #000000 noshade; margin-top:40px; background-image:url(../img/azul.png);}
+
+#containerES a {font-size: 1.3em;}	
+
+#interiorES { width: 80%; margin: 0 auto; overflow: hidden; display:-webkit-flex;display:-ms-flexbox; display:flex;  flex-wrap:wrap; justify-content:center; background-image:url(../img/fondoweb2.png); padding: 20px 20px 20px 20px}
+
+#interiorContentES { width: 771px; text-align:justify}
+
+.dotcoContentES { font-size: 1.4em; line-height: 1.5em; color: #444; }
+	.dotcoContentES h1 { padding: 0 0 28px 0; font-size: 3.4em; line-height: 1em; font-weight: normal; }
+	.dotcoContentES h2 { padding: 0 0 18px 0; font-size: 1.8em; line-height: 1.0em; font-weight: normal; color: #252525; }
+	.dotcoContentES h3 { padding: 0 0 18px 0; font-size: 1.3em; color: #ff6e00; outline: none; -moz-outline-style: none; }
+	.dotcoContentES p { padding: 0 0 24px 0; line-height: 1.3em;}
+	
+	#atrasES { background:url(../img/boton-inicio.png); border:0px noshade;}

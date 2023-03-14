@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+#imagen1 { background:url(../img/banners/banner1.png);}
+#imagen2 { background:url(../img/banners/banner2.png);}
+#imagen3 { background:url(../img/banners/banner3.png);}
+#imagen4 { background:url(../img/banners/banner4.png);}
+#imagen5 { background:url(../img/banners/banner5.png);}
+
+@media only screen and (max-width: 950px) {
+#homeMain { margin: 0 auto; width: 100%; max-width:950px; height: auto !important; display:block;}
+}
+
+@media only screen and (max-width: 640px) {
+#imagen1 { background:url(../img/banners/1banner_fone.png) no-repeat 50% 40% fixed; position:absolute;}
+#imagen2 { background:url(../img/banners/2banner_fone.png) no-repeat 50% 40% fixed; position:absolute;}
+#imagen3 { background:url(../img/banners/3banner_fone.png) no-repeat 50% 40% fixed; position:absolute;}
+#imagen4 { background:url(../img/banners/4banner_fone.png) no-repeat 50% 40% fixed; position:absolute;}
+#imagen5 { background:url(../img/banners/5banner_fone.png) no-repeat 50% 40% fixed; position:absolute;}
+}
+
+@media only screen and (max-width: 500px) {
+#drawer-content ul li span{background-color:#fff;color:#333;font-size:12px;line-height:15px;text-align:left;opacity:.9;width:145px;height:100px;padding:15px 25px 0;display:none;position:absolute;right:0;top:0;}
+}
+@media only screen and (max-width: 740px) {
+
+.dotcoContent img { width: 200px; height:auto;}	
+#title a { color: #fff; font-size:21px; }
+.ratedback { margin:20px 0 0 0; padding:0px; width:328px; height:573px; background:#000000; float:left; }
+#sypnosispq { margin: 20px 0 10px 0;}
+}
+
+@media only screen and (max-width: 700px) {
+#interior-menu-anime { margin: 0 auto; width:100%;max-width: 960PX; height: auto !important; position: relative; padding: 20px 0 35px 0; display:-webkit-flex;display:-ms-flexbox; display:flex; flex-wrap:wrap;flex-direction:column; justify-content:center; align-items:center;}
+
+.dotcoContent img { width: 200px; height:auto; order:1;}	
+#title a { color: #fff; font-size:21px; }
+.ratedback { margin:20px 0 0 0; padding:0px; width:328px; height:573px; background:#000000; float:left; order:2;}
+#sypnosispq { margin: 20px 0 10px 0;}
+}
+
+
+
+
+
+
+
+
+
+
